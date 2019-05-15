@@ -8,6 +8,19 @@ Installation
    ```bash
    bash create.sh
    ```
+   
+   this creates file.txt with 100 commits, which has 8 good commits, and then a bug is introduced in the 9th commit:
+   ```bash
+   ...
+   6 bug free
+   7 bug free
+   8 bug free
+   9 has a bug
+   10 has a bug
+   11 has a bug
+   ...
+   ```
+
 Run
 ---
 1. Run bisect-run.sh to find the first buggy commit:
